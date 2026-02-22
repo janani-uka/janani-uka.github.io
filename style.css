@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafc;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* NAVIGATION */
+nav {
+    background: #0f172a;
+    padding: 18px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #cbd5e1;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+    color: #3b82f6;
+}
+
+/* HERO */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #1e293b, #0f172a);
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+/* SECTIONS */
+section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    border-left: 5px solid #3b82f6;
+    padding-left: 10px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.skills span {
+    display: inline-block;
+    background: #e2e8f0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 6px;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
